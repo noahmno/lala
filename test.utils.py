@@ -3,10 +3,10 @@ import math
 
 
 
-def factorial(n):
+def test_factorial(n):
     if n < 1:
-        raise ValueError("plus petit que 0")
+        raise ValueError("plus petit que 1")
     return math.factorial(n)
 
 
-print(factorial(0))
+print(test_factorial(0))
